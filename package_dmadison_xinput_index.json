@@ -269,6 +269,47 @@
           "toolsDependencies": []
         }
       ]
+    },
+    {
+      "name": "xinput_sparkfun",
+      "maintainer": "David Madison",
+      "websiteURL": "https://github.com/dmadison",
+      "help": {
+        "online": "https://github.com/dmadison/ArduinoXInput_Boards"
+      },
+      "platforms": [
+        {
+          "name": "XInput SparkFun Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/dmadison/ArduinoXInput_Boards/raw/master/boards/xinput-sparkfun-1.0.0.tar.bz2",
+          "archiveFileName": "xinput-sparkfun-1.0.0.tar.bz2",
+          "checksum": "SHA-256:d14123b61f9cc42ef86f8cd8d749b124c4d2022d80e9566564843887fd007542",
+          "size": "460187",
+          "help": {
+            "online": "https://github.com/dmadison/ArduinoXInput_Boards"
+          },
+          "boards": [
+            {
+              "name": "SparkFun MaKey MaKey w/ XInput"
+            },
+            {
+              "name": "SparkFun Pro Micro w/ XInput"
+            },
+            {
+              "name": "SparkFun Fio v3 w/ XInput"
+            },
+            {
+              "name": "Qduino Mini w/ XInput"
+            },
+            {
+              "name": "LilyPad USB Plus w/ XInput"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ]
     }
   ]
 }
