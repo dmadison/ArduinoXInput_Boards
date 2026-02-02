@@ -319,6 +319,58 @@
             }
           ],
           "toolsDependencies": []
+        },
+        {
+          "name": "XInput AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "url": "https://github.com/dmadison/ArduinoXInput_Boards/raw/master/boards/xinput-avr-1.0.6.tar.bz2",
+          "archiveFileName": "xinput-avr-1.0.6.tar.bz2",
+          "checksum": "SHA-256:e1f18287ecd0644b1357daf491507ae407e3c61861398be9a38d1f0bcbd523f5",
+          "size": "2394594",
+          "help": {
+            "online": "https://github.com/dmadison/ArduinoXInput_Boards"
+          },
+          "boards": [
+            {
+              "name": "Arduino Yun w/ XInput"
+            },
+            {
+              "name": "Arduino Leonardo w/ XInput"
+            },
+            {
+              "name": "Arduino Leonardo ETH w/ XInput"
+            },
+            {
+              "name": "Arduino Micro w/ XInput"
+            },
+            {
+              "name": "Arduino Esplora w/ XInput"
+            },
+            {
+              "name": "LilyPad Arduino USB w/ XInput"
+            },
+            {
+              "name": "Arduino Robot Control w/ XInput"
+            },
+            {
+              "name": "Arduino Robot Motor w/ XInput"
+            },
+            {
+              "name": "Adafruit Circuit Playground 32u4 w/ XInput"
+            },
+            {
+              "name": "Arduino Yun Mini w/ XInput"
+            },
+            {
+              "name": "Arduino Industrial 101 w/ XInput"
+            },
+            {
+              "name": "Linino One w/ XInput"
+            }
+          ],
+          "toolsDependencies": []
         }
       ]
     },
