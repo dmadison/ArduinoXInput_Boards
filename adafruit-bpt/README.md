@@ -1,10 +1,11 @@
 # How to Update the Package Manifest
 
 ### 1. [Install Python 3](https://www.python.org/downloads/)
-### 2. Install the [GitPython module](https://pypi.org/project/GitPython/) for Python 3
+
+### 2. Install required module dependencies
 
 ```
-python -m pip install gitpython
+python -m pip install -r adafruit-bpt/requirements.txt
 ```
 
 ### 3. Check for updates
