@@ -29,7 +29,8 @@ import socketserver
 from bpt_model import *
 import click
 from git import Repo
-from pkg_resources import parse_version
+#from pkg_resources import parse_version  # deprecated Python 3.12+
+from packaging.version import parse as parse_version  # Python 3.12+ workaround
 
 
 logger = logging.getLogger(__name__)
